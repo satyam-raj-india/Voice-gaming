@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Most Commented YouTube Short – Voice Gaming Aalu Virus</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Voice Gaming from India – creator of the Aalu Virus trend and holder of one of the most commented YouTube shorts with over 11.4M comments. Aalo khaoge, Aalu khaoge, Voice India, Voice Minecraft, most commented video & most commented short.">
+  <meta name="keywords" content="Aalo khaoge,Aalu khaoge,Voice India,Voice Gaming,Voice Minecraft,Most commented video,Most commented short,Aalu virus,Aalu community,Aalu gang,Most commented YouTube short">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #312e81 100%);
+      color: #f1f5f9;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    /* Animated background particles */
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: 
+        radial-gradient(circle at 20% 30%, rgba(34, 197, 94, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 70%, rgba(59, 130, 246, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 40% 80%, rgba(168, 85, 247, 0.08) 0%, transparent 50%);
+      pointer-events: none;
+      animation: particles 20s ease-in-out infinite alternate;
+    }
+
+    @keyframes particles {
+      0% { opacity: 0.3; transform: scale(1); }
+      100% { opacity: 0.6; transform: scale(1.1); }
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* Hero section */
+    .hero {
+      text-align: center;
+      margin-bottom: 60px;
+      animation: fadeInDown 0.8s ease-out;
+    }
+
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .logo-wrapper {
+      display: inline-block;
+      position: relative;
+      margin-bottom: 30px;
+    }
+
+    .logo {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 4px solid #22c55e;
+      padding: 4px;
+      background: linear-gradient(135deg, #22c55e 0%, #10b981 100%);
+      box-shadow: 
+        0 0 40px rgba(34, 197, 94, 0.6),
+        0 20px 60px rgba(0, 0, 0, 0.5);
+      animation: glow 3s ease-in-out infinite alternate;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .logo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+      display: block;
+    }
+
+    @keyframes glow {
+      0% {
+        box-shadow: 
+          0 0 40px rgba(34, 197, 94, 0.6),
+          0 20px 60px rgba(0, 0, 0, 0.5);
+      }
+      100% {
+        box-shadow: 
+          0 0 60px rgba(34, 197, 94, 0.8),
+          0 20px 80px rgba(0, 0, 0, 0.6);
+      }
+    }
+
+    h1 {
+      font-size: clamp(2rem, 5vw, 3.5rem);
+      font-weight: 900;
+      margin-bottom: 16px;
+      background: linear-gradient(135deg, #22c55e 0%, #3b82f6 50%, #a855f7 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      letter-spacing: -0.02em;
+      line-height: 1.1;
+    }
+
+    .subtitle {
+      font-size: clamp(1rem, 2.5vw, 1.3rem);
+      color: #cbd5e1;
+      margin-bottom: 20px;
+      font-weight: 500;
+    }
+
+    .tag-cloud {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .tag {
+      padding: 8px 16px;
+      background: rgba(15, 23, 42, 0.6);
+      border: 1px solid rgba(148, 163, 184, 0.3);
+      border-radius: 20px;
+      font-size: 0.85rem;
+      backdrop-filter: blur(10px);
+      transition: all 0.3s ease;
+      cursor: default;
+    }
+
+    .tag.primary {
+      background: linear-gradient(135deg, rgba(34, 197, 94, 0.2), rgba(16, 185, 129, 0.2));
+      border-color: #22c55e;
+      color: #86efac;
+      font-weight: 600;
+    }
+
+    .tag:hover {
+      transform: translateY(-2px);
+      border-color: #22c55e;
+      box-shadow: 0 4px 12px rgba(34, 197, 94, 0.3);
+    }
+
+    /* Stats banner */
+    .stats-banner {
+      background: linear-gradient(135deg, rgba(59, 130, 246, 0.15), rgba(139, 92, 246, 0.15));
+      border: 2px solid rgba(59, 130, 246, 0.3);
+      border-radius: 24px;
+      padding: 32px;
+      margin-bottom: 50px;
+      text-align: center;
+      backdrop-filter: blur(20px);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+      animation: fadeInUp 0.8s ease-out 0.2s both;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .stats-label {
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: #93c5fd;
+      margin-bottom: 12px;
+      font-weight: 600;
+    }
+
+    .stats-number {
+      font-size: clamp(2.5rem, 6vw, 4rem);
+      font-weight: 900;
+      background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 12px;
+      line-height: 1;
+    }
+
+    .stats-description {
+      font-size: 1.1rem;
+      color: #cbd5e1;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    /* Content grid */
+    .content-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 30px;
+      margin-bottom: 50px;
+    }
+
+    @media (min-width: 768px) {
+      .content-grid {
+        grid-template-columns: 1.5fr 1fr;
+      }
+    }
+
+    .card {
+      background: rgba(15, 23, 42, 0.6);
+      border: 1px solid rgba(148, 163, 184, 0.2);
+      border-radius: 20px;
+      padding: 32px;
+      backdrop-filter: blur(20px);
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+      transition: all 0.4s ease;
+      animation: fadeInUp 0.8s ease-out 0.4s both;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      border-color: rgba(34, 197, 94, 0.4);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    }
+
+    .card h2 {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+      color: #a5f3fc;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .card h2::before {
+      content: '';
+      width: 4px;
+      height: 24px;
+      background: linear-gradient(180deg, #22c55e 0%, #3b82f6 100%);
+      border-radius: 2px;
+    }
+
+    .card p {
+      font-size: 1rem;
+      line-height: 1.7;
+      color: #cbd5e1;
+      margin-bottom: 16px;
+    }
+
+    .card a {
+      color: #22c55e;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      border-bottom: 2px solid transparent;
+    }
+
+    .card a:hover {
+      color: #86efac;
+      border-bottom-color: #22c55e;
+    }
+
+    .card strong {
+      color: #f1f5f9;
+      font-weight: 600;
+    }
+
+    /* Social connect section */
+    .social-section {
+      animation: fadeInUp 0.8s ease-out 0.5s both;
+    }
+
+    .social-buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    .social-btn {
+      height: 64px;
+      background: rgba(15, 23, 42, 0.8);
+      border: 2px solid rgba(148, 163, 184, 0.3);
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      padding: 0 24px;
+      gap: 16px;
+      transition: all 0.4s ease;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+      text-decoration: none;
+      color: #f1f5f9;
+    }
+
+    .social-btn::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(34, 197, 94, 0.2), transparent);
+      transition: left 0.6s ease;
+    }
+
+    .social-btn:hover::before {
+      left: 100%;
+    }
+
+    .social-btn:hover {
+      transform: translateY(-4px);
+      border-color: #22c55e;
+      box-shadow: 0 8px 24px rgba(34, 197, 94, 0.4);
+    }
+
+    .social-btn i {
+      font-size: 28px;
+      width: 40px;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    .social-btn span {
+      font-size: 1.05rem;
+      font-weight: 600;
+      position: relative;
+      z-index: 1;
+    }
+
+    .social-btn.youtube i {
+      color: #ff0000;
+    }
+
+    .social-btn.discord i {
+      color: #5865f2;
+    }
+
+    .social-btn.instagram i {
+      color: #e4405f;
+    }
+
+    /* Hashtag section */
+    .hashtag-section {
+      background: rgba(15, 23, 42, 0.4);
+      border-radius: 16px;
+      padding: 20px;
+      border: 1px solid rgba(148, 163, 184, 0.2);
+      backdrop-filter: blur(10px);
+    }
+
+    .hashtag-section h3 {
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #a5f3fc;
+      margin-bottom: 12px;
+      font-weight: 600;
+    }
+
+    .hashtags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .hashtag {
+      font-size: 0.85rem;
+      color: #86efac;
+      padding: 6px 12px;
+      background: rgba(34, 197, 94, 0.1);
+      border-radius: 12px;
+      border: 1px solid rgba(34, 197, 94, 0.2);
+      transition: all 0.3s ease;
+      cursor: default;
+    }
+
+    .hashtag:hover {
+      background: rgba(34, 197, 94, 0.2);
+      transform: scale(1.05);
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      border-top: 1px solid rgba(148, 163, 184, 0.2);
+      margin-top: 60px;
+      animation: fadeIn 1s ease-out 0.6s both;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    footer p {
+      color: #94a3b8;
+      margin-bottom: 10px;
+      font-size: 0.95rem;
+    }
+
+    footer a {
+      color: #60a5fa;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    footer a:hover {
+      color: #93c5fd;
+      text-decoration: underline;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      .container {
+        padding: 30px 16px;
+      }
+
+      .hero {
+        margin-bottom: 40px;
+      }
+
+      .logo {
+        width: 120px;
+        height: 120px;
+      }
+
+      .stats-banner {
+        padding: 24px 20px;
+      }
+
+      .card {
+        padding: 24px;
+      }
+
+      .social-buttons {
+        flex-direction: column;
+      }
+
+      .social-btn {
+        min-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Hero Section -->
+    <div class="hero">
+      <div class="logo-wrapper">
+        <div class="logo">
+          <img src="voice.png" alt="Voice Gaming logo">
+        </div>
+      </div>
+      
+      <h1>The Aalu Virus Phenomenon</h1>
+      <p class="subtitle">Voice Gaming India · Most Commented YouTube Short</p>
+      
+      <div class="tag-cloud">
+        <span class="tag primary">Most Commented Short</span>
+        <span class="tag">Aalo khaoge</span>
+        <span class="tag">Aalu khaoge</span>
+        <span class="tag">Voice India</span>
+        <span class="tag">Voice Minecraft</span>
+        <span class="tag">Aalu Virus</span>
+        <span class="tag">Gaming India</span>
+      </div>
+    </div>
+
+    <!-- Stats Banner -->
+    <div class="stats-banner">
+      <div class="stats-label">World Record Achievement</div>
+      <div class="stats-number">11.4M+</div>
+      <p class="stats-description">
+        Comments on a single YouTube short, making it one of the <strong>most commented videos</strong> on the entire platform
+      </p>
+    </div>
+
+    <!-- Content Grid -->
+    <div class="content-grid">
+      <!-- Story Card -->
+      <div class="card">
+        <h2>The Viral Story</h2>
+        <p>
+          <strong>Voice Gaming</strong> is a YouTube gaming channel from India that accidentally created one of the internet's most viral trends. During a casual gaming short, fans picked up the phrase <strong>"Aalo khaoge?"</strong> (will you eat potato?) and turned it into a phenomenon.
+        </p>
+        <p>
+          What started as an inside joke evolved into the legendary <a href="https://youtube.com/shorts/x5NKM3fdWPw?si=BZeru0CSLeCnEhuB" target="_blank" rel="noopener"><strong>Aalu Virus</strong></a>. Fans began commenting "Aalo khaoge?" across YouTube, creating a movement that spread like wildfire.
+        </p>
+        <p>
+          One particular short reached <a href="https://youtube.com/shorts/yqVxRmfd4LI?si=FH4YQYCABL6iGhuB" target="_blank" rel="noopener"><strong>over 11.4 million comments</strong></a>, cementing Voice Gaming's place in internet history. The community became known as the <strong>Aalu Community</strong>, and searches for "most commented short" and "Aalu virus" now lead directly to this incredible story.
+        </p>
+      </div>
+
+      <!-- Social Connect Card -->
+      <div class="card social-section">
+        <h2>Join the Community</h2>
+        <p style="margin-bottom: 24px;">
+          Be part of the <strong>Aalu Community</strong> and support Voice Gaming. Comment with love, celebrate creativity, and keep the legend alive!
+        </p>
+
+        <div class="social-buttons">
+          <a href="https://youtube.com/shorts/yqVxRmfd4LI?si=FH4YQYCABL6iGhuB" class="social-btn youtube" target="_blank" rel="noopener" aria-label="Subscribe to Voice Gaming">
+            <i class="fa-brands fa-youtube"></i>
+            <span>YouTube</span>
+          </a>
+          <a href="https://discord.gg/8MXXwSxHyZ" class="social-btn discord" target="_blank" rel="noopener" aria-label="Join Discord">
+            <i class="fa-brands fa-discord"></i>
+            <span>Discord</span>
+          </a>
+          <a href="https://instagram.com/voice.ig" class="social-btn instagram" target="_blank" rel="noopener" aria-label="Follow on Instagram">
+            <i class="fa-brands fa-instagram"></i>
+            <span>Instagram</span>
+          </a>
+        </div>
+
+        <div class="hashtag-section">
+          <h3>Trending Hashtags</h3>
+          <div class="hashtags">
+            <span class="hashtag">#AaluVirus</span>
+            <span class="hashtag">#AaloKhaoge</span>
+            <span class="hashtag">#VoiceGaming</span>
+            <span class="hashtag">#VoiceIndia</span>
+            <span class="hashtag">#MostCommented</span>
+            <span class="hashtag">#AaluCommunity</span>
+            <span class="hashtag">#VoiceMinecraft</span>
+            <span class="hashtag">#IndiaGaming</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>Developed with 💚 by AnON-Apps · 2025</p>
+      <p>
+        <a href="https://satyam-raj-india.github.io/Satyam-Raj/" target="_blank" rel="noopener">
+          Visit Developer Portfolio
+        </a>
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
